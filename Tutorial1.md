@@ -19,3 +19,30 @@ gọi các hàm của OpenGL
 3.  Cung cấp nhiều ứng dụng thực tiễn phong phú
 4.  Có thể được kết hợp với các thiết bị công nghệ mới trong tương lai.
 
+#### Điểm yếu của WebGL  
+1.  Ứng dung WebGL bị hạn chế về môi trường OS
+2.  Học để sử dụng thành thạo tốn rất nhiều thời gian
+3.  Dung lượng dữ liệu càng lớn thì tốc độ load càng chậm
+
+#### Làm thử quen với WebGL    
+Nội dung:   
+  . Sử dung Context Object của WebGL để viết các xử lí
+  ・Tạo ra từ thẻ tag  tên là cavas của HTML5
+
+```
+// canvas への参照を変数に取得する
+var c = document.getElementById('canvas');
+
+// WebGL コンテキストを canvas から取得する
+var gl = c.getContext('webgl') || c.getContext('experimental-webgl');
+
+// WebGL コンテキストの取得ができたかどうか
+if(gl){
+    console.log('supports webgl');
+}else{
+    console.log('webgl not supported');
+}
+```
+
+
+
