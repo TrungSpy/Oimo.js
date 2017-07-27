@@ -12,3 +12,10 @@ gọi các hàm của OpenGL
 4. <a href = "http://www.fishgl.com/">FishGL</a> 
 5. <a href = "http://kile.stravaganza.org/lab/thiswayjs/#">thisway.js by stravaganza</a> 
 6. <a href = "http://haxiomic.github.io/projects/webgl-fluid-and-particles/?q=UltraLow">WebGL Fluid Experiment</a>  
+
+#### Điểm mạnh của WebGL  
+1.  Nhẹ,dễ dàng chạy ngay lập tức bên trong web browser
+2.  Không đòi hỏi nhiều thao tác cài đặt , chỉnh sửa của user
+3.  Cung cấp nhiều ứng dụng thực tiễn phong phú
+4.  Có thể được kết hợp với các thiết bị công nghệ mới trong tương lai.
+
